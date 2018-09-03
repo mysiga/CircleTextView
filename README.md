@@ -1,18 +1,17 @@
-#CircleTextView圆形+文字VIEW
+#CircleTextView(圆形+文字View)
 基于
-!(CircleTextImageView)[https://github.com/CoolThink/CircleTextImageView] ,
-!(CircleImageView)[https://github.com/hdodenhof/CircleImageView]修改
+[CircleTextImageView](https://github.com/CoolThink/CircleTextImageView),
+[CircleImageView](https://github.com/hdodenhof/CircleImageView)开源库修改
 
 
 1.只显示头像
-
 2.圆形背景文字
-
 3.头像+文字
 ![头像+文字](https://github.com/mysiga/CircleTextView/blob/master/CircleTextView.jpeg)
 
-分别的使用方法:
-1.只显示头像
+使用方法:
+
+###只显示头像
 ```
 <com.mysiga.lib.view.CircleTextView
             android:id="@+id/profile_image"
@@ -22,7 +21,7 @@
             app:borderColor="#FF000000"
             app:borderWidth="2dp" />
 ```
-2.圆形背景文字
+###纯色圆形背景+文字
 
 ```
 <com.mysiga.lib.view.CircleTextView
@@ -37,7 +36,7 @@
             app:borderWidth="2dp"
             app:textPadding="35dp" />
 ```
-3.头像+文字
+###头像+文字
 
 ```
 <com.mysiga.lib.view.CircleTextView
@@ -53,7 +52,8 @@
             app:borderWidth="2dp"
             app:textPadding="35dp" />
 ```
-在build.gradle中添加组件即可:
+引入设置
+
 ```
 allprojects {
 		repositories {
