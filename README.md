@@ -1,15 +1,15 @@
 #CircleTextView圆形+文字VIEW
-基于(CircleTextImageView)[https://github.com/CoolThink/CircleTextImageView],(CircleImageView)[https://github.com/hdodenhof/CircleImageView]修改
+基于
+!(CircleTextImageView)[https://github.com/CoolThink/CircleTextImageView] ,
+!(CircleImageView)[https://github.com/hdodenhof/CircleImageView]修改
 
 
 1.只显示头像
-![只显示头像](http://img.blog.csdn.net/20151218120637337)
 
 2.圆形背景文字
-![圆形背景文字](http://img.blog.csdn.net/20151218120953090)
 
 3.头像+文字
-![头像+文字](http://img.blog.csdn.net/20151218121007675)
+![头像+文字](https://github.com/mysiga/CircleTextView/CircleTextView.jpeg)
 
 分别的使用方法:
 1.只显示头像
