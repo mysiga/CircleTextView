@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#EEEEEE"
+        android:gravity="center">
+
+        <com.mysiga.lib.view.CircleTextView
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/hugh"
+            app:borderColor="#FF000000"
+            app:borderWidth="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#222222"
+        android:gravity="center">
+
+        <com.mysiga.lib.view.CircleTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="照片"
+            android:textColor="@android:color/white"
+            android:textSize="32sp"
+            app:backgroundColor="@color/colorAccent"
+            app:borderColor="@android:color/white"
+            app:borderWidth="2dp"
+            app:textPadding="35dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#EEEEEE"
+        android:gravity="center">
+
+        <com.mysiga.lib.view.CircleTextView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:src="@drawable/skye"
+            android:text="晴朗"
+            android:textColor="#ff99cc00"
+            android:textSize="32sp"
+            app:backgroundColor="#50555D"
+            app:borderColor="@android:color/darker_gray"
+            app:borderWidth="2dp"
+            app:textPadding="35dp" />
+    </LinearLayout>
+</LinearLayout>
