@@ -9,7 +9,7 @@
 2.圆形背景文字
 
 3.头像+文字
-![头像+文字](https://github.com/mysiga/CircleTextView/CircleTextView.jpeg)
+![头像+文字](https://github.com/mysiga/CircleTextView/blob/master/CircleTextView.jpeg)
 
 分别的使用方法:
 1.只显示头像
