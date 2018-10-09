@@ -63,7 +63,7 @@ allprojects {
 	}
 ```
 ```
-implementation 'com.github.mysiga:CircleTextView:V1.0'
+implementation 'com.github.mysiga:CircleTextView:V1.1'
 ```
 混淆编译配置
 ```
