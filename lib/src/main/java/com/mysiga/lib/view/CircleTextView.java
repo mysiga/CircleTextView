@@ -24,6 +24,7 @@ import android.support.annotation.ColorRes;
 import android.support.annotation.DrawableRes;
 import android.support.annotation.RequiresApi;
 import android.support.annotation.StringRes;
+import android.support.v7.widget.AppCompatImageView;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
@@ -36,7 +37,7 @@ import com.mysiga.lib.R;
 /**
  * 圆形文字图片,设置背景图片和文字叠加
  */
-public class CircleTextView extends ImageView {
+public class CircleTextView extends AppCompatImageView {
 
     private static final ScaleType SCALE_TYPE = ScaleType.CENTER_CROP;
 
@@ -427,6 +428,7 @@ public class CircleTextView extends ImageView {
         }
         mDrawableRadius = Math.min(mDrawableRect.height() / 2.0f, mDrawableRect.width() / 2.0f);
 
+        //画简单的圆
         if (mBitmap != null) {
             mBitmapShader = new BitmapShader(mBitmap, Shader.TileMode.CLAMP, Shader.TileMode.CLAMP);
             mBitmapHeight = mBitmap.getHeight();

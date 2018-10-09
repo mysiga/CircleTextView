@@ -65,3 +65,7 @@ allprojects {
 ```
 implementation 'com.github.mysiga:CircleTextView:V1.0'
 ```
+混淆编译配置
+```
+-keep class android.support.v7.widget.** { *; }
+```
